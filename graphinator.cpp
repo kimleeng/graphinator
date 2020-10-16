@@ -2,6 +2,8 @@
 GRAPHANATOR!
 by Kim Ng
 
+Some older code I found which I did at KU related to bayesembler. From 14/06/14. What it was for was creating a graph from a bam file to find all possible isoforms paths.
+
 Currently looking at Splice Graph creation adding extra edges, occuring when edge starts from same segment from midway and goes to different locations
 */
 
@@ -1275,3 +1277,4 @@ int main(int argc, char* argv[])
 
 	std::cout << "****** Graphinator end   ******" << std::endl;
 	return 0;
+}
